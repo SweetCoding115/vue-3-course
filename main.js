@@ -2,9 +2,10 @@ const app = Vue.createApp({
     data() {
         return {
             product: 'Socks',
-            image: './assets/images/socks_green.jpg',
+            image: './assets/images/socks_blue.jpg',
+            inventory: 100,
             // solution
-            url: 'https://www.vuemastery.com/'
+            onSale: true
             // solution
         }
     }
